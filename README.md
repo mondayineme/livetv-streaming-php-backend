@@ -9,7 +9,6 @@ You can download and install XAMPP Server from the given link [Here](https://www
 
 * Once the programm is installed in your system, to go C:/XAMPP and open Xampp-control.exe file to start the control panel.
 * Now Start the Apache and MySql server.
-*  
 
 ## Setting Up phpmyadmin Password 
 * By Default when you install xampp server, the phpmyadmin comes with blank password and "root" as username, if you want you can change it yourself using the mysql command prompt.
