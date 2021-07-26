@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Texturina:wght@800&display=swap');
+
+body {
+	background: #000;
+	font-family: 'Poppins', sans-serif;
+}
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('http://31.media.tumblr.com/ad65726441493f47e0c8f0473206f4e5/tumblr_mvwl4fCEb21rdpk23o1_1280.jpg');
+  }
+  .form-signin {
+    max-width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 10px;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #000;
+  }
+  .form-signin-heading {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
+
+ .site_branding {
+  	background: #000;
+  	color: #fff;
+ }
+ .brand_wrapper {
+ 	margin: auto;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+
+ .site_title {
+ 	font-family: 'Texturina', serif;
+ }
+ .site_navigation nav a {
+ 	margin-left: 1rem;
+ 	font-size: 1.0rem;
+ 	font-family: 'Poppins', sans-serif;
+ 	color: #fff;
+
+ }
+
+.main_wrapper {
+	background: #000;
+}
+
+ .site_content{
+ 	margin: auto;
+ 	display: flex;
+ 	background: #fff;
+  }
+
+ .side_menu_bar {
+  min-height: 100vh;
+ 	flex:0 1 20%;
+ 	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+ 	background: #171d23;
+ }
+
+ .content_main {
+ 	flex:1;
+ 	padding: 1rem;
+
+ }
+
+ .side_menu_nav {
+ 	display: flex;
+    flex-direction: column;
+ }
+ .side_menu_nav a{
+ 	color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    border-bottom: 1px solid;
+
+ }
+
+ .side_menu_nav a:hover {
+ 	color: #000;
+ 	background: #fff;
+ }
+ .cat_cards .card {
+  display: flex;
+  align-items: center;
+  
+ }
+
+ .card img {
+ 	  height: 150px;
+ }
+
+ .cat_cards .row .col {
+ 	margin-top: 1rem;
+ }
+
+ .alert h1 {
+ 	font-size: 1.8rem;
+ 	margin: 0;
+ }
+
+ .add_question_form {
+ 	padding-top:1rem;
+ }
+
+ .add_question_form input {
+ 	display: block;
+ 	margin-bottom: 1rem;
+ 	padding: 1rem;
+ 	width: 100%;
+ }
+
+ .add_question_form select {
+ 	padding: 1rem;
+ 	margin-bottom: 1rem;
+ }
+
+ .answers_arrow {
+ 	display: flex;
+    justify-content: end;
+    align-items:end;
+    margin-bottom: 1rem;
+
+ }
+
+ .answers_arrow img {
+ 	width: 1.5rem;
+ }
+
+ .answers_arrow h6 {
+ 	margin-left:1rem;
+ }
+ .q_title {
+ 	color: #000;
+ }
+
+ .edit_btn {
+ 	margin-left: 2rem;
+ }
+
+ .dashboard_cards .card {
+  text-align: center;
+ }
+
+.dashboard_cards .card .card-text {
+  font-size: 3rem;
+}
+.add_cat_form {
+  padding-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+}
+label {
+  display: block;
+}
+.card-body {
+  width: 100%;
+  padding-bottom: 0;
+}
+.card-body p a {
+  margin-right: 5px;
+}
+.col {
+  flex-grow: 0;
+}
+
+.dashboard_cards .card-body {
+  padding-bottom: 1rem;
+}
