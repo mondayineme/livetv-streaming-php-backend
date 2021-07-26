@@ -1,4 +1,4 @@
-# PHP Backend to Manage Live TV Straming Android app
+# PHP Backend to Manage Live TV Streaming Android app
 
 Follow Given Steps to Setup Local Environment to run this php Script
 
